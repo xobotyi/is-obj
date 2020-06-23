@@ -11,8 +11,6 @@
     "moduleResolution": "Node",
     "target": "es5",
     "sourceMap": false,
-    "declaration": true,
-    "declarationDir": "/dist",
     "outDir": "/dist",
     "lib": [
       "ESNext"
