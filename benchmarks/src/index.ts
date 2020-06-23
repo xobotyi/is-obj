@@ -6,96 +6,28 @@ import isObject = require('is-obj');
 
 const showRef = false;
 
-run(
+run<any>(
   [
     {
       name: 'object',
       data: { foo: 'bar' },
       reference: true,
     },
-  ],
-  {
-    'is-obj': (data) => {
-      return isObject(data);
-    },
-    '@xobotyi/is-obj [local]': (data) => {
-      return localIsObj(data);
-    },
-    '@xobotyi/is-obj [npm]': (data) => {
-      return npmIsObj(data);
-    },
-  },
-  { showRef },
-);
-
-run(
-  [
     {
       name: 'array',
       data: [1, 2, 34],
       reference: true,
     },
-  ],
-  {
-    'is-obj': (data) => {
-      return isObject(data);
-    },
-    '@xobotyi/is-obj [local]': (data) => {
-      return localIsObj(data);
-    },
-    '@xobotyi/is-obj [npm]': (data) => {
-      return npmIsObj(data);
-    },
-  },
-  { showRef },
-);
-
-run(
-  [
     {
       name: 'function',
       data: () => 123,
       reference: true,
     },
-  ],
-  {
-    'is-obj': (data) => {
-      return isObject(data);
-    },
-    '@xobotyi/is-obj [local]': (data) => {
-      return localIsObj(data);
-    },
-    '@xobotyi/is-obj [npm]': (data) => {
-      return npmIsObj(data);
-    },
-  },
-  { showRef },
-);
-
-run(
-  [
     {
       name: 'null',
       data: null,
       reference: false,
     },
-  ],
-  {
-    'is-obj': (data) => {
-      return isObject(data);
-    },
-    '@xobotyi/is-obj [local]': (data) => {
-      return localIsObj(data);
-    },
-    '@xobotyi/is-obj [npm]': (data) => {
-      return npmIsObj(data);
-    },
-  },
-  { showRef },
-);
-
-run(
-  [
     {
       name: 'boolean',
       data: true,
@@ -103,15 +35,9 @@ run(
     },
   ],
   {
-    'is-obj': (data) => {
-      return isObject(data);
-    },
-    '@xobotyi/is-obj [local]': (data) => {
-      return localIsObj(data);
-    },
-    '@xobotyi/is-obj [npm]': (data) => {
-      return npmIsObj(data);
-    },
+    'is-obj': isObject,
+    '@xobotyi/is-obj [local]': localIsObj,
+    '@xobotyi/is-obj [npm]': npmIsObj,
   },
   { showRef },
 );
