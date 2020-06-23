@@ -1,6 +1,29 @@
 <div align="center">
   <h1>@xobotyi/is-obj</h1>
   <p>Check if given value is an object</p>
+  <p>
+      <a href="https://travis-ci.org/xobotyi/is-obj">
+          <img src="https://flat.badgen.net/travis/xobotyi/is-obj?v=1" alt="Build status"/>
+      </a>
+      <a href="https://www.npmjs.com/package/@xobotyi/is-obj">
+          <img src="https://flat.badgen.net/npm/v/@xobotyi/is-obj?v=1" alt="NPM version"/>
+      </a>
+      <a href="https://www.npmjs.com/package/@xobotyi/is-obj">
+          <img src="https://flat.badgen.net/npm/dw/@xobotyi/is-obj?v=1" alt="NPM weekly downloads"/>
+      </a>
+      <a href="https://www.npmjs.com/package/@xobotyi/is-obj">
+          <img src="https://flat.badgen.net/npm/license/@xobotyi/is-obj?v=1" alt="License"/>
+      </a>
+      <a href="https://www.npmjs.com/package/@xobotyi/is-obj">
+          <img src="https://flat.badgen.net/npm/types/@xobotyi/is-obj?v=1" alt="Types definition"/>
+      </a>
+      <a href="https://www.npmjs.com/package/@xobotyi/is-obj">
+          <img src="https://flat.badgen.net/codacy/grade/229d8852c8e44b9ebab4652cb065cf35?v=1" alt="Codacy Code Grade"/>
+      </a>
+      <a href="https://www.npmjs.com/package/@xobotyi/is-obj">
+          <img src="https://flat.badgen.net/codacy/coverage/229d8852c8e44b9ebab4652cb065cf35?v=1" alt="Tests LOC"/>
+      </a>
+    </p>
 </div>
 
 ---
