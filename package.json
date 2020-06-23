@@ -1,20 +1,26 @@
 {
-  "name": "ts-package-template",
-  "description": "",
-  "keywords": [],
+  "name": "@xobotyi/is-obj",
+  "description": "Check if given value is an object",
+  "keywords": [
+    "object",
+    "check",
+    "is",
+    "type",
+    "test"
+  ],
   "version": "0.0.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "author": "Anton Zinovyev <xog3@yandex.ru>",
-  "homepage": "https://github.com/xobotyi/",
+  "homepage": "https://github.com/xobotyi/is-obj",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xobotyi/.git"
+    "url": "https://github.com/xobotyi/is-obj.git"
   },
   "bugs": {
-    "url": "hhttps://github.com/xobotyi//issues"
+    "url": "hhttps://github.com/xobotyi/is-obj/issues"
   },
   "funding": {
     "type": "patreon",
@@ -53,7 +59,7 @@
     "build": "yarn cleanup && yarn compile:CJS && yarn compile:ESM && yarn compile:ESNext",
     "test": "jest --coverage=false",
     "test:coverage": "jest --coverage",
-    "benchmark": "yarn build && cd ./benchmark && yarn && yarn benchmark",
+    "benchmarks": "yarn build && cd ./benchmarks && yarn && yarn benchmarks",
     "lint": "eslint ./{src,tests,benchmarks}/**/*.{ts,js} ./*.{ts,js}",
     "lint:fix": "yarn lint --fix",
     "lint:types": "yarn build --noEmit",
