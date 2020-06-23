@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/xobotyi/is-obj/compare/v1.0.1...v1.1.0) (2020-06-23)
+
+
+### Features
+
+* **benchmarks:** simplify benchmarks. ([f32bc91](https://github.com/xobotyi/is-obj/commit/f32bc918af1b532bbb4a310b754797f6ac20be1a))
+* add related projects to readme ([c15d1d7](https://github.com/xobotyi/is-obj/commit/c15d1d72c9bbbc823906981401d16f0ee068849c))
+
 ## [1.0.1](https://github.com/xobotyi/is-obj/compare/v1.0.0...v1.0.1) (2020-06-23)
 
 
