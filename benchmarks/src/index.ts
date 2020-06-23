@@ -1,3 +1,4 @@
+import { isObj as npmIsObj } from '@xobotyi/is-obj';
 import { run } from './run';
 import { isObj as localIsObj } from '../..';
 // eslint-disable-next-line import/order
@@ -17,8 +18,11 @@ run(
     'is-obj': (data) => {
       return isObject(data);
     },
-    '@xobotyi/is-obj': (data) => {
+    '@xobotyi/is-obj [local]': (data) => {
       return localIsObj(data);
+    },
+    '@xobotyi/is-obj [npm]': (data) => {
+      return npmIsObj(data);
     },
   },
   { showRef },
@@ -36,8 +40,11 @@ run(
     'is-obj': (data) => {
       return isObject(data);
     },
-    '@xobotyi/is-obj': (data) => {
+    '@xobotyi/is-obj [local]': (data) => {
       return localIsObj(data);
+    },
+    '@xobotyi/is-obj [npm]': (data) => {
+      return npmIsObj(data);
     },
   },
   { showRef },
@@ -55,8 +62,11 @@ run(
     'is-obj': (data) => {
       return isObject(data);
     },
-    '@xobotyi/is-obj': (data) => {
+    '@xobotyi/is-obj [local]': (data) => {
       return localIsObj(data);
+    },
+    '@xobotyi/is-obj [npm]': (data) => {
+      return npmIsObj(data);
     },
   },
   { showRef },
@@ -74,8 +84,11 @@ run(
     'is-obj': (data) => {
       return isObject(data);
     },
-    '@xobotyi/is-obj': (data) => {
+    '@xobotyi/is-obj [local]': (data) => {
       return localIsObj(data);
+    },
+    '@xobotyi/is-obj [npm]': (data) => {
+      return npmIsObj(data);
     },
   },
   { showRef },
@@ -93,8 +106,11 @@ run(
     'is-obj': (data) => {
       return isObject(data);
     },
-    '@xobotyi/is-obj': (data) => {
+    '@xobotyi/is-obj [local]': (data) => {
       return localIsObj(data);
+    },
+    '@xobotyi/is-obj [npm]': (data) => {
+      return npmIsObj(data);
     },
   },
   { showRef },
