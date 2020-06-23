@@ -1,5 +1,6 @@
 import { run } from './run';
 import { isObj as localIsObj } from '../..';
+// eslint-disable-next-line import/order
 import isObject = require('is-obj');
 
 const showRef = false;
@@ -18,7 +19,7 @@ run(
     },
     '@xobotyi/is-obj': (data) => {
       return localIsObj(data);
-    }
+    },
   },
   { showRef },
 );
@@ -37,7 +38,7 @@ run(
     },
     '@xobotyi/is-obj': (data) => {
       return localIsObj(data);
-    }
+    },
   },
   { showRef },
 );
@@ -46,8 +47,7 @@ run(
   [
     {
       name: 'function',
-      data: () => {
-      },
+      data: () => 123,
       reference: true,
     },
   ],
@@ -57,7 +57,7 @@ run(
     },
     '@xobotyi/is-obj': (data) => {
       return localIsObj(data);
-    }
+    },
   },
   { showRef },
 );
@@ -76,7 +76,7 @@ run(
     },
     '@xobotyi/is-obj': (data) => {
       return localIsObj(data);
-    }
+    },
   },
   { showRef },
 );
@@ -95,7 +95,7 @@ run(
     },
     '@xobotyi/is-obj': (data) => {
       return localIsObj(data);
-    }
+    },
   },
   { showRef },
 );
