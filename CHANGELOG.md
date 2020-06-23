@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/xobotyi/is-obj/compare/v1.0.0...v1.0.1) (2020-06-23)
+
+
+### Bug Fixes
+
+* dependency type hysky -> husky ([c69f407](https://github.com/xobotyi/is-obj/commit/c69f407f80c4fabdcca970775f15093dc8165fb8))
+
 # 1.0.0 (2020-06-23)
 
 
